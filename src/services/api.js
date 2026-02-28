@@ -1,11 +1,11 @@
-﻿/**
+/**
  * api.js - API service for Airbnb Frontend
  * Connects to deployed backend on Render.com
  */
 
 import axios from "axios";
 
-const API_BASE_URL = "https://YOUR_RENDER_URL.onrender.com/api";
+const API_BASE_URL = "https://airbnb-backend-iu2c.onrender.com/api";
 
 const api = axios.create({
   baseURL: API_BASE_URL,
